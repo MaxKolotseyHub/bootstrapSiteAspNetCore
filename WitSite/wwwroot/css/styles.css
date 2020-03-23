@@ -1,0 +1,68 @@
+.jumbotron{
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+#preview-text{
+    text-align: center;
+    margin: 1em;
+}
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -56px;
+}
+
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+td{
+    padding: 15px;
+}
+
+
+#navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+  }
+
+
+h1{
+    text-align: center;
+    margin-top: 5fr;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding-top: 5rem;
+}
+section{
+    min-height: 100vh;
+}
+.p-directionList{
+text-align: center;
+font-size: larger;
+}
+form {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+#directionsList{
+    text-align: center;
+}
